@@ -205,3 +205,53 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ===== Project-specific (NLP/ML) =====
+
+# Data & outputs (keep repo light)
+data/
+datasets/
+outputs/
+results/
+reports/
+logs/
+tmp/
+
+# Models / embeddings / checkpoints
+models/
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.onnx
+*.joblib
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# Large tabular exports (optional: comment these out if you DO want to version small CSVs)
+*.parquet
+*.feather
+
+# If you don't want raw CSVs in git, enable next line; otherwise keep it commented
+# *.csv
+
+# HuggingFace / Transformers caches (common on Windows too)
+.cache/
+**/.cache/
+huggingface/
+**/huggingface/
+HF_HOME/
+TRANSFORMERS_CACHE/
+HF_DATASETS_CACHE/
+
+# Experiment trackers
+wandb/
+runs/
+tb_logs/
+lightning_logs/
+
+# OS junk (Windows)
+Thumbs.db
+Desktop.ini
