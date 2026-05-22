@@ -36,8 +36,8 @@ The notebook is provided primarily as a documented analysis workflow, with prese
 
 ## Repository Content
 
-NLP_project.ipynb - Main notebook
-README.md - Project description and reproducibility notes
+- NLP_project.ipynb - Main notebook
+- README.md - Project description and reproducibility notes
 
 ## Technologies Used
 - Python
