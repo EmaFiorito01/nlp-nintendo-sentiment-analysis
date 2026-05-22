@@ -39,3 +39,14 @@ The notebook is provided primarily as a documented analysis workflow, with prese
 ```text
 NLP_project.ipynb   # Main notebook
 README.md          # Project description and reproducibility notes
+
+## Technologies Used
+Python
+Google Colab
+pandas
+NumPy
+scikit-learn
+PyTorch
+Hugging Face Transformers
+Matplotlib
+Seaborn
