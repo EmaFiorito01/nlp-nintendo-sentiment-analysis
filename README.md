@@ -36,7 +36,6 @@ The notebook is provided primarily as a documented analysis workflow, with prese
 
 ## Repository Content
 
-```text
 NLP_project.ipynb   # Main notebook
 README.md          # Project description and reproducibility notes
 
